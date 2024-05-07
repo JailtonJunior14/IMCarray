@@ -60,7 +60,7 @@ namespace IMCarray
                 Console.WriteLine(nome[j] + " IMC: " + imc[j]);
 
             }
-            Console.WriteLine("Estão acima do peso: " + cont + "   " + (cont/5)*100);
+            Console.WriteLine("Porcentual acima do peso: " + cont + "   " + (cont/5).ToString("P"));
             Console.ReadKey();
 
         }
